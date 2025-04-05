@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso de Redes | Seguridad</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+                <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                            aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                            aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
+                            aria-label="Slide 3"></button>
+                    </div>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/portada1.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/portada2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/portada3.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item active">
+                        <img src="img/portada4.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item active">
+                        <img src="img/portada5.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item active">
+                        <img src="img/portada6.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">Curso de Redes</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a href="index.html" class="nav-link active" aria-current="page" href="#">Inicio</a>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Temario
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item " href="introredes.html">Introduccion a las
+                                            Redes</a></li>
+                                    <li><a class="dropdown-item " href="protocolos.html">Protocolos de comunicacion</a>
+                                    </li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item active" href="#">Seguridad en Redes</a></li>
+                                    <li><a class="dropdown-item" href="redesinalambricas.html">Redes inalambricas</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="Practicas.html">Practicas y Laboratorio </a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Recursos
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Presentaciones</a></li>
+                                    <li><a class="dropdown-item" href="#">Guias de Estudio</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Enlaces Utiles</a></li>
+                                    <li><a class="dropdown-item" href="#">Herramientas de Redes</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main class="row mt-3">
+            <aside class="col-md-3">
+                <div class="list-group">
+                    <a href="#Amenazas" class="list-group-item list-group-item-action">Amenazas</a>
+                    <a href="#Medidas" class="list-group-item list-group-item-action">Medidas de Seguridad</a>
+                    <a href="#Herramientas" class="list-group-item list-group-item-action">Herramientas de Seguridad</a>
+                    <a href="#Modelos" class="list-group-item list-group-item-action">Modelos de Seguridad</a>
+                </div>
+            </aside>
+            <section class="col-md-9">
+                <article>
+                    <div id="">
+                        <p>La seguridad de redes informáticas es el conjunto de estrategias, tecnologías y
+                            procedimientos utilizados para proteger redes y sistemas informáticos de amenazas
+                            cibernéticas. Su objetivo principal es garantizar la confidencialidad, integridad y
+                            disponibilidad de la información.</p>
+                    </div>
+                    <hr>
+                    <div id="Amenazas">
+                        <h1>Principales Amenazas</h1>
+                        <ul>
+                            <li>Malware (virus, ransomware, troyanos, spyware).</li>
+
+                            <li> Phishing (suplantación de identidad para robar información).</li>
+
+                            <li>Ataques de denegación de servicio (DDoS).</li>
+
+                            <li>Interceptación de datos (Man-in-the-Middle).</li>
+
+                            <li>Ataques por fuerza bruta para robar contraseñas.</li>
+
+                            <li>Exploits que aprovechan vulnerabilidades en software y hardware.</li>
+                        </ul>
+                    </div>
+                    <hr>
+                    <div id="Medidas">
+                        <h1>Medidas de Seguridad en Redes</h1>
+                        <h2>Protección Perimetral</h2>
+                        <ul>
+                            <li>Firewalls: Filtran el tráfico de red para bloquear accesos no autorizados.</li>
+
+                            <li> Sistemas de Detección y Prevención de Intrusos (IDS/IPS).</li>
+
+                            <li>Segmentación de red (separar redes internas y externas).</li>
+
+                            <li>Uso de VPNs para conexiones remotas seguras.</li>
+                        </ul>
+                        <h2>Protección de Datos</h2>
+                        <ul>
+                            <li>Cifrado de datos en tránsito y almacenamiento.</li>
+
+                            <li>Autenticación multifactor (MFA) para accesos seguros.</il>
+
+                            <li>Copias de seguridad periódicas para recuperación ante incidentes.</il>
+
+                            <li>Control de acceso basado en roles y privilegios.</li>
+                        </ul>
+                        <h2>Buenas Prácticas</h2>
+                        <ul>
+                            <li>Actualizar software y sistemas para corregir vulnerabilidades.</li>
+
+                            <li> Usar contraseñas seguras y políticas de cambio frecuente.</li>
+
+                            <li>Educar a los usuarios sobre riesgos y ataques de ingeniería social.</li>
+
+                            <li>Monitoreo constante de la red para detectar anomalías.</li>
+                        </ul>
+                    </div>
+                    <hr>
+                    <div id="Herramientas">
+                        <h1>Herramientas de Seguridad en Redes</h1>
+                        <ul>
+                            <li>🔍 Wireshark (Análisis de tráfico en red).</li>
+
+                            <li>🔐 Snort (Detección de intrusos).</li>
+
+                            <li>⚙️ Nmap (Escaneo de puertos y detección de vulnerabilidades).</li>
+
+                            <li>🛠 Metasploit (Pruebas de penetración).</li>
+
+                            <li>🖥 Fail2Ban (Prevención de ataques de fuerza bruta).</li>
+                        </ul>
+
+                    </div>
+                    <div id="Modelos">
+                        <h1>Modelos de Seguridad en Redes</h1>
+                        <ul>
+                            <li>Capa de seguridad perimetral: Protege el acceso externo.</li>
+
+                            <li> Seguridad en el host: Protección de dispositivos individuales.</li>
+
+                            <li>Seguridad en aplicaciones: Protección de software y servicios.</li>
+
+                            <li>Seguridad en datos: Cifrado y control de acceso a la información.</li>
+                        </ul>
+                    </div>
+                </article>
+            </section>
+        </main>
+        <div class="clearfix"></div>
+        <footer>
+            <div class="bg-dark text-bg-dark mt-3 pt-3 pb-3">
+                <p class="text-center">
+                    Todos los derechos reservados 2025. Diseñador Web Melissa Oseguera.
+                </p>
+            </div>
+        </footer>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

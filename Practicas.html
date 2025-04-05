@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso de Redes | Practicas</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+                <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                            aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                            aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
+                            aria-label="Slide 3"></button>
+                    </div>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/portada1.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/portada2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/portada3.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item active">
+                        <img src="img/portada4.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item active">
+                        <img src="img/portada5.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item active">
+                        <img src="img/portada6.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">Curso de Redes</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a href="index.html" class="nav-link active" aria-current="page" href="#">Inicio</a>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Temario
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item " href="introredes.html">Introduccion a las
+                                            Redes</a></li>
+                                    <li><a class="dropdown-item " href="protocolos.html">Protocolos de comunicacion</a>
+                                    </li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item " href="seguridad.html">Seguridad en Redes</a></li>
+                                    <li><a class="dropdown-item" href="redesinalambricas.html">Redes inalambricas</a>
+                                    </li>
+                                    <li><a class="dropdown-item active" href="#">Practicas y Laboratorio </a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Recursos
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Presentaciones</a></li>
+                                    <li><a class="dropdown-item" href="#">Guias de Estudio</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Enlaces Utiles</a></li>
+                                    <li><a class="dropdown-item" href="#">Herramientas de Redes</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main class="row mt-3">
+            <aside class="col-md-3">
+                <div class="list-group">
+                    <a href="#Configuracion" class="list-group-item list-group-item-action">Configuracion Basica</a>
+                    <a href="#Implementacion" class="list-group-item list-group-item-action">Implementacion
+                        Inalámbrica</a>
+                    <a href="#Configuracion" class="list-group-item list-group-item-action">Configuracion de
+                        servidor</a>
+                    <a href="#Conclusion" class="list-group-item list-group-item-action">Conclusion</a>
+                </div>
+            </aside>
+            <section class="col-md-9">
+                <article>
+                    <div id="">
+                        <h1></h1>
+                        <p>Las prácticas y laboratorios de redes son fundamentales para adquirir experiencia y
+                            comprensión en la configuración, gestión y aseguramiento de redes informáticas. Los
+                            laboratorios permiten a los estudiantes, profesionales y técnicos aplicar los conocimientos
+                            adquiridos en clases teóricas y enfrentar escenarios del mundo real para resolver problemas
+                            de redes. A continuación, te proporciono una guía sobre las principales prácticas y
+                            laboratorios en redes, incluyendo ejemplos de configuraciones y tareas comunes. </p>
+                    </div>
+                    <hr>
+                    <div id="Configuracion">
+                        <h1>Configuración Básica de una Red LAN</h1>
+                        <p>Este es uno de los laboratorios más básicos pero cruciales, donde los participantes
+                            configuran una red local de área (LAN) desde cero.
+
+                            Objetivos:</p>
+                        <ul>
+                            <li>Configurar los dispositivos de red básicos como switches, routers y computadoras.</li>
+                            <li>Asignar direcciones IP estáticas a los dispositivos.</li>
+                            <li>Verificar la conectividad de la red con herramientas como ping.</li>
+                        </ul>
+                        <p>Práctica:</p>
+                        <p> 1. Conectar los Dispositivos: Usa cables Ethernet para conectar computadoras a un switch y
+                            conecta el switch a un router.</p>
+                        <p>2.Configurar IP estática: Asigna direcciones IP dentro de la misma subred a cada dispositivo.
+                        </p>
+                        <p>Ejemplo:</p>
+                        <ul>
+                            <li>PC1: 192.168.1.2</li>
+                            <li>PC2: 192.168.1.3</li>
+                            <li>Router: 192.168.1.1</li>
+                        </ul>
+                        <p>3.Verificar Conectividad: Usa el comando ping desde una computadora para verificar que pueda
+                            comunicarse con otros dispositivos de la red.</p>
+                        <p>4.Revisar la Tabla de Enrutamiento: En el router, verifica las rutas para asegurarte de que
+                            se puedan reenviar los paquetes correctamente.</p>
+                    </div>
+                    <hr>
+                    <div id="Implementacion">
+                        <h1> Implementación de una Red Inalámbrica (Wi-Fi)</h1>
+                        <p>Aquí se aprende cómo configurar una red Wi-Fi, asegurando la comunicación inalámbrica dentro
+                            de un espacio local.</p>
+                        <p>Objetivos:</p>
+                        <ul>
+                            <li>Configurar un router inalámbrico o punto de acceso (AP).</li>
+                            <li>Asegurar la red Wi-Fi con cifrado WPA2 o WPA3.</li>
+                            <li>Verificar el acceso a Internet a través de la red inalámbrica.</li>
+                        </ul>
+                        <p>Práctica:</p>
+                        <p>1.Configurar el Router o Punto de Acceso: Accede a la interfaz de administración del router o
+                            AP.</p>
+                        <ul>
+                            <li>Asigna un nombre de red (SSID).</li>
+                            <li>Configura la seguridad (WPA2 o WPA3) y una contraseña segura.</li>
+                        </ul>
+                        <p>2.Conectar Dispositivos: Conecta computadoras, teléfonos o tablets a la red inalámbrica
+                            utilizando el SSID y la contraseña configurada.</p>
+                        <p>3.Verificar la Conectividad: Asegúrate de que los dispositivos puedan acceder a la red
+                            interna y a Internet.</p>
+                    </div>
+                    <hr>
+                    <div id="Configuracion">
+                        <h1>Configuración de un Servidor DHCP</h1>
+                        <p>El DHCP (Dynamic Host Configuration Protocol) es una tecnología que asigna automáticamente
+                            direcciones IP a los dispositivos dentro de una red.
+
+                            Objetivos:</p>
+                        <ul>
+                            <li>Configurar un servidor DHCP en un router o servidor.</li>
+                            <li>Asignar dinámicamente direcciones IP a los dispositivos conectados.</li>
+                            <li>Validar que las direcciones IP se asignan correctamente.</li>
+                        </ul>
+                        <p>Práctica:</p>
+                        <p>1.Habilitar DHCP en el Router: Accede a la interfaz de administración del router o servidor y
+                            habilita el servicio DHCP.</p>
+                        <ul>
+                            <li>Define un rango de direcciones IP que el servidor DHCP podrá asignar a los dispositivos.
+                            </li>
+                            <li>Configura los parámetros de la red, como la máscara de subred y la puerta de enlace
+                                predeterminada.</li>
+                        </ul>
+                        <p>2.Conectar Dispositivos: Conecta dispositivos a la red y verifica que reciban una dirección
+                            IP automáticamente.</p>
+                        <p>3.Verificar Asignación de IP: Usa el comando ipconfig (Windows) o ifconfig (Linux) para ver
+                            la IP asignada a los dispositivos.</p>
+                    </div>
+                    <hr>
+                    <div id="Configuracion de Firewall">
+                        <h1>Configuración de un Firewall</h1>
+                        <p>Un firewall controla el tráfico entre redes, permitiendo o bloqueando el paso de paquetes
+                            según un conjunto de reglas predefinidas.
+
+                            Objetivos:</p>
+                        <ul>
+                            <li>Configurar reglas de firewall para permitir o bloquear tráfico.</li>
+                            <li>Establecer un firewall para proteger la red interna de accesos no autorizados.</li>
+                            <li>Probar las reglas del firewall para asegurar su efectividad.</li>
+                        </ul>
+                        <p>Práctica:</p>
+                        <p>1.Configurar Reglas de Firewall: En el router o en un firewall dedicado, configura reglas
+                            para bloquear ciertos puertos o direcciones IP externas.</p>
+                        <ul>
+                            <li>Ejemplo: Bloquear el tráfico de una dirección IP no autorizada.</li>
+                        </ul>
+                        <p>2.Probar Conectividad: Utiliza ping o telnet para verificar que el tráfico se esté bloqueando
+                            o permitiendo según las reglas definidas.</p>
+                        <p>3.Configurar un Firewall en el Sistema Operativo: Configura el firewall de una computadora
+                            local para bloquear conexiones entrantes en puertos específicos, como el puerto 80 (HTTP).
+                        </p>
+                    </div>
+                    <hr>
+                    <div id="Conclusion">
+                        <h1>Conclusion</h1>
+                        <p>Las prácticas y laboratorios de redes permiten aplicar y profundizar en los conceptos
+                            teóricos de redes informáticas. Son fundamentales para entender cómo funcionan las redes en
+                            el mundo real, cómo configurar los dispositivos de red y cómo garantizar su seguridad.
+                            Practicar en laboratorios te proporciona una experiencia valiosa para resolver problemas
+                            reales y mejorar las habilidades técnicas necesarias para gestionar redes de manera
+                            eficiente.</p>
+                    </div>
+                </article>
+            </section>
+        </main>
+        <div class="clearfix"></div>
+        <footer>
+            <div class="bg-dark text-bg-dark mt-3 pt-3 pb-3">
+                <p class="text-center">
+                    Todos los derechos reservados 2025. Diseñador Web Melissa Oseguera.
+                </p>
+            </div>
+        </footer>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

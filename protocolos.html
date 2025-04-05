@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso de Redes | Protocolos</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+                <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                            aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                            aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
+                            aria-label="Slide 3"></button>
+                    </div>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/portada1.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/portada2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/portada3.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item active">
+                        <img src="img/portada4.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item active">
+                        <img src="img/portada5.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item active">
+                        <img src="img/portada6.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">Curso de Redes</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a href="index.html" class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Temario
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item " href="introredes.html">Introduccion a las
+                                            Redes</a></li>
+                                    <li><a class="dropdown-item active" href="#">Protocolos de comunicacion</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="seguridad.html">Seguridad en Redes</a></li>
+                                    <li><a class="dropdown-item" href="redesinalambricas.html">Redes inalambricas</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="Practicas.html">Practicas y Laboratorio </a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Recursos
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Presentaciones</a></li>
+                                    <li><a class="dropdown-item" href="#">Guias de Estudio</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Enlaces Utiles</a></li>
+                                    <li><a class="dropdown-item" href="#">Herramientas de Redes</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main class="row mt-3">
+            <aside class="col-md-3">
+                <div class="list-group">
+                    <a href="#Protocolos" class="list-group-item list-group-item-action">Protocolos</a>
+                    <a href="#Funciones" class="list-group-item list-group-item-action">Funciones</a>
+                    <a href="#Objetivos" class="list-group-item list-group-item-action">objetivos</a>
+                    <a href="#Conclusion" class="list-group-item list-group-item-action">Conclusion</a>
+                </div>
+            </aside>
+            <section class="col-md-9">
+                <article>
+                    <div id="Protocolos">
+                        <h1>Protocolos</h1>
+                        <p>Los protocolos de red son un conjunto de reglas y estándares que permiten la comunicación
+                            entre dispositivos en una red, dictando cómo se transmiten, reciben, procesan y entregan los
+                            datos. Son como un lenguaje común que facilita
+                            la interacción entre diferentes sistemas.
+                            Los protocolos de redes son esenciales porque permiten que los dispositivos se comuniquen de
+                            manera eficiente y segura en una red. Sin ellos, no habría una forma estandarizada de
+                            transmitir
+                            información entre computadoras, teléfonos, servidores y otros dispositivos.Un protocolo de
+                            redes
+                            es un conjunto de reglas y estándares que permiten la comunicación entre dispositivos en una
+                            red.
+                            Define cómo se transmiten, reciben y procesan los datos, asegurando que la información viaje
+                            de
+                            manera eficiente y segura entre computadoras, servidores, teléfonos y otros dispositivos
+                            conectados.
+                        </p>
+                    </div>
+                    <hr>
+                    <div id="Funciones">
+                        <h1>Funciones</h1>
+                        <p>Los protocolos de redes tienen la función de establecer las reglas y procedimientos para la
+                            comunicación entre dispositivos en una red. Sin ellos, los dispositivos no podrían
+                            intercambiar datos de manera efectiva.
+                            Los protocolos de red son normas que regulan el envío y recepción de datos entre
+                            computadoras. Sus funciones básicas son:</p>
+                        <li>Asignar identificadores
+                            Cada dispositivo en la red tiene un identificador único que le permite enviar y recibir
+                            datos. </li>
+                        <li>Establecer cómo se envían y reciben datos
+                            Los protocolos de red garantizan que los datos se envían y reciben de forma correcta y
+                            secuencial. </li>
+                        <li>Detectar y corregir errores
+                            Los protocolos de red detectan y corrigen errores que puedan ocurrir durante la
+                            transmisión. </li>
+                        <li>Establecer conexiones confiables
+                            Los protocolos de red establecen conexiones confiables entre los equipos.
+                        </li>
+                        <li>Enrutar paquetes
+                            Los protocolos de red dirigen los paquetes de datos al destinatario correcto.
+                        </li>
+                        <li>Cifrar datos
+                            Los protocolos de red cifran los datos transmitidos para que no puedan ser leídos por
+                            terceros. </li>
+                    </div>
+                    <hr>
+                    <div id="Objetivos">
+                        <h1>Objetivos</h1>
+                        <ul>
+                            <p>Los protocolos de redes tienen como objetivo principal garantizar una comunicación
+                                eficiente, segura y confiable entre dispositivos en una red. Para lograrlo, establecen
+                                reglas y procedimientos que permiten la transmisión de datos sin errores ni conflictos.
+                            </p>
+                            <li>Interoperabilidad
+                                Permiten que dispositivos de diferentes fabricantes y sistemas operativos se comuniquen
+                                entre sí.
+                                Ejemplo: Un teléfono Android y un iPhone pueden conectarse a la misma red Wi-Fi porque
+                                usan los mismos protocolos de comunicación (TCP/IP, HTTP, DNS, etc.).</li>
+                            <img src="img/proto2.png" alt="" style="float: right;">
+                            <li>Estandarización
+                                Definen reglas universales para la transmisión de datos, evitando incompatibilidades.
+                                Ejemplo: El protocolo Ethernet (IEEE 802.3) estandariza la comunicación en redes
+                                cableadas para que todos los dispositivos puedan conectarse correctamente.</li>
+                            <li>Fiabilidad en la Comunicación
+                                Aseguran que los datos lleguen completos y en el orden correcto.
+                                Ejemplo: TCP (Transmission Control Protocol) usa confirmaciones de recepción para
+                                garantizar que los datos no se pierdan.</li>
+                            <li>Seguridad en la Transmisión de Datos
+                                Protegen la información contra accesos no autorizados y ciberataques.
+                                Ejemplo: HTTPS (Hypertext Transfer Protocol Secure) cifra la información cuando navegas
+                                en Internet, evitando que terceros la intercepten.</li>
+                            <li>Optimización del Uso de la Red
+                                Administran el tráfico de datos para evitar sobrecargas y mejorar la velocidad de
+                                transmisión.
+                                Ejemplo: IP (Internet Protocol) usa el enrutamiento para encontrar el mejor camino para
+                                enviar paquetes de datos.</li>
+                            <li>Corrección y Detección de Errores
+                                Verifican que los datos lleguen sin errores y, si es necesario, los retransmiten.
+                                Ejemplo: UDP con corrección de errores (UDP-Lite) permite detectar errores en la
+                                transmisión sin necesidad de retransmitir todos los datos.</li>
+                            <li>Facilidad de Expansión (Escalabilidad)
+                                Permiten agregar nuevos dispositivos y tecnologías sin necesidad de rediseñar toda la
+                                red.
+                                Ejemplo: IPv6 (Internet Protocol version 6) fue desarrollado para permitir más
+                                direcciones IP, adaptándose al crecimiento de Internet.</li>
+                        </ul>
+                    </div>
+                    <div id="Conclusion">
+                        <h1>Conclusion sobre los protocolos</h1>
+                        <p>Los protocolos de redes son la base fundamental para la comunicación en el mundo digital. Sin
+                            ellos, no sería posible la transmisión de datos entre dispositivos, lo que afectaría el
+                            funcionamiento de Internet, las redes empresariales y las conexiones móviles.
+
+                            Gracias a la estandarización de estos protocolos, se logra una interoperabilidad eficiente
+                            entre diferentes sistemas, garantizando fiabilidad, seguridad y optimización en la
+                            transmisión de datos. Además, permiten la detección de errores, la protección de la
+                            información y la escalabilidad de las redes para adaptarse a nuevas tecnologías.
+
+                            En un mundo cada vez más conectado, la importancia de los protocolos de redes seguirá
+                            creciendo, impulsando la innovación y mejorando la forma en que interactuamos con la
+                            tecnología. </p>
+                    </div>
+                </article>
+            </section>
+        </main>
+        <div class="clearfix"></div>
+        <footer>
+            <div class="bg-dark text-bg-dark mt-3 pt-3 pb-3">
+                <p class="text-center">
+                    Todos los derechos reservados 2025. Diseñador Web Melissa Oseguera.
+                </p>
+            </div>
+        </footer>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
